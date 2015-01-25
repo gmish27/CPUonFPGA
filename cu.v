@@ -24,7 +24,7 @@ module cu#(parameter d=16)(
     );
 	 	 
 	 wire ar_we, ar_inc;	 
-	 wire [7:0] ar_idat, ar_odat;
+	 wire [7:0] ar_idat, ar_odat; 
 	 wire pc_we, pc_inc;	 
 	 wire [7:0] pc_idat, pc_odat;
 	 wire ir_inc;	 
